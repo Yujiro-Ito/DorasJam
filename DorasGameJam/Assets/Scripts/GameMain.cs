@@ -4,6 +4,12 @@ using UnityEngine;
 
 public class GameMain : MonoBehaviour
 {
+    public string NextSceneName
+    {
+        get;
+        set;
+    }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -15,4 +21,6 @@ public class GameMain : MonoBehaviour
     {
         
     }
+
+
 }
