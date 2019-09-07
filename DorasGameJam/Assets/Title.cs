@@ -14,7 +14,7 @@ public class Title : MonoBehaviour
 
     public void PushStartButton()
     {
-        SceneManager.LoadScene("Game");
+        SceneManager.LoadScene("Stage1");
     }
 
 }
