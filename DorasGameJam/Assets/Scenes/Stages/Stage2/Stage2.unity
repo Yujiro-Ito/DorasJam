@@ -623,6 +623,7 @@ GameObject:
   - component: {fileID: 1705054107}
   - component: {fileID: 1705054109}
   - component: {fileID: 1705054110}
+  - component: {fileID: 1705054111}
   m_Layer: 0
   m_Name: Swimming2
   m_TagString: Untagged
@@ -740,6 +741,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
+--- !u!114 &1705054111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1705054106}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 210cba40cdb152745a453b426e65f33e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  first: 1
 --- !u!1 &1719845803
 GameObject:
   m_ObjectHideFlags: 0
@@ -752,6 +766,7 @@ GameObject:
   - component: {fileID: 1719845804}
   - component: {fileID: 1719845806}
   - component: {fileID: 1719845807}
+  - component: {fileID: 1719845808}
   m_Layer: 0
   m_Name: Swimming1
   m_TagString: Untagged
@@ -869,6 +884,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
+--- !u!114 &1719845808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1719845803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 210cba40cdb152745a453b426e65f33e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  first: -1
 --- !u!1 &1809439459 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4821432890737270999, guid: 7a21ef15cc511ad49abe09ddafe8ef75,
@@ -924,7 +952,6 @@ GameObject:
   - component: {fileID: 1897213519}
   - component: {fileID: 1897213518}
   - component: {fileID: 1897213517}
-  - component: {fileID: 1897213520}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -997,18 +1024,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1897213520
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1897213516}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 210cba40cdb152745a453b426e65f33e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1937867609
 PrefabInstance:
   m_ObjectHideFlags: 0
