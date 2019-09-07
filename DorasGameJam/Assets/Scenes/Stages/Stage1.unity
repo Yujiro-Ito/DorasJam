@@ -281,6 +281,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ebe1baa64d62a92449c4200f1621522d, type: 3}
+--- !u!198 &405538064 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 7393379906020979516, guid: c0c9f8f5e988e914d8d28af0df8245e8,
+    type: 3}
+  m_PrefabInstance: {fileID: 731330657}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &434705643
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -288,11 +294,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 4821432890737270999, guid: 7a21ef15cc511ad49abe09ddafe8ef75,
-        type: 3}
-      propertyPath: m_Name
-      value: Player
-      objectReference: {fileID: 0}
     - target: {fileID: 8931372993291014322, guid: 7a21ef15cc511ad49abe09ddafe8ef75,
         type: 3}
       propertyPath: m_Mass
@@ -302,6 +303,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_GravityScale
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4821432890737270999, guid: 7a21ef15cc511ad49abe09ddafe8ef75,
+        type: 3}
+      propertyPath: m_Name
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 4371084930749578211, guid: 7a21ef15cc511ad49abe09ddafe8ef75,
         type: 3}
@@ -625,6 +631,75 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
+--- !u!1001 &731330657
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7231892298969232340, guid: c0c9f8f5e988e914d8d28af0df8245e8,
+        type: 3}
+      propertyPath: m_Name
+      value: GoalEffect
+      objectReference: {fileID: 0}
+    - target: {fileID: 7229541359276331444, guid: c0c9f8f5e988e914d8d28af0df8245e8,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7229541359276331444, guid: c0c9f8f5e988e914d8d28af0df8245e8,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7229541359276331444, guid: c0c9f8f5e988e914d8d28af0df8245e8,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7229541359276331444, guid: c0c9f8f5e988e914d8d28af0df8245e8,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7229541359276331444, guid: c0c9f8f5e988e914d8d28af0df8245e8,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7229541359276331444, guid: c0c9f8f5e988e914d8d28af0df8245e8,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7229541359276331444, guid: c0c9f8f5e988e914d8d28af0df8245e8,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7229541359276331444, guid: c0c9f8f5e988e914d8d28af0df8245e8,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 7229541359276331444, guid: c0c9f8f5e988e914d8d28af0df8245e8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7229541359276331444, guid: c0c9f8f5e988e914d8d28af0df8245e8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7229541359276331444, guid: c0c9f8f5e988e914d8d28af0df8245e8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c0c9f8f5e988e914d8d28af0df8245e8, type: 3}
 --- !u!1 &1396417869
 GameObject:
   m_ObjectHideFlags: 0
@@ -857,6 +932,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 938624ac667b42d4cbe3101c33be7923, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _goalEffect: {fileID: 405538064}
 --- !u!58 &1614678837
 CircleCollider2D:
   m_ObjectHideFlags: 0

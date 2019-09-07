@@ -28,6 +28,7 @@ public class Collision : MonoBehaviour
     private IEnumerator Goal()
     {
         _goalEffect.Play();
+        SoundPlayer.Instance.PlaySE("Clear");
         yield return new WaitForSeconds(2);
         GameObject.FindObjectOfType<SwitchScene>().OnResult();
     }

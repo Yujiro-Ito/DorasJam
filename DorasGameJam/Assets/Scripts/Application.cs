@@ -33,17 +33,10 @@ public class Application : MonoBehaviour
         private set;
     }
 
-    public SoundPlayer SoundPlayer
-    {
-        get;
-        private set;
-    }
-
     //----methods----
     public void Initialize()
     {
         GameMain = gameObject.AddComponent<GameMain>();
-        SoundPlayer = gameObject.AddComponent<SoundPlayer>();
     }
 
     // Use this for initialization
