@@ -7,8 +7,7 @@ public class Result : MonoBehaviour
 {
     public void OnPressNext()
     {
-        string nextSceneName = Application.Instance.GameMain.NextSceneName;
-        SceneManager.LoadScene(nextSceneName);
+        SceneManager.LoadScene("Stage1");
     }
 
     public void OnPressFinish()
