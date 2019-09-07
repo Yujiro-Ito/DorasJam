@@ -338,7 +338,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.49333334
+  m_Radius: 0.5
 --- !u!1 &1897213516
 GameObject:
   m_ObjectHideFlags: 0
@@ -493,6 +493,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.x
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4511621849544342446, guid: 060dafffd555d9b41984aa3a65c4cc53,
+        type: 3}
+      propertyPath: m_FlipX
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4511621849544342445, guid: 060dafffd555d9b41984aa3a65c4cc53,
         type: 3}
