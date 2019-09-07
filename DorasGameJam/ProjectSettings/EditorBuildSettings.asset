@@ -9,9 +9,9 @@ EditorBuildSettings:
     path: 
     guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/nakajima.unity
-    guid: afb9a61fe770d904ba45dd31fac8be5e
+    path: Assets/Scenes/Title.unity
+    guid: cfa02d83adf12e74cae031b3e5384145
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 134efa21362ba9144953685a6979d0ac
+    path: Assets/Scenes/Game.unity
+    guid: bd419381eec6b054d87178ed5a4c108b
   m_configObjects: {}
