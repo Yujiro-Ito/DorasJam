@@ -1,15 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 
 public class Collision : MonoBehaviour
 {
+    Coroutine _switchScene;
+
     // Start is called before the first frame update
     void Start()
     {
-
+        _switchScene = null;
     }
 
     // Update is called once per frame
@@ -17,8 +18,9 @@ public class Collision : MonoBehaviour
     {
         
     }
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
-            SceneManager.LoadScene("SampleScene");
+        GameObject.FindObjectOfType<SwitchScene>().OnResult();
     }
 }
