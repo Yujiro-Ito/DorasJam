@@ -2,7 +2,7 @@
 {
     public static void LoadAllSounds(SoundPlayer player)
     {
-        player.LoadBGM("Game", "Game");
+        player.LoadBGM("Game", "game");
 
         player.LoadSE("Clear", "clear");
         player.LoadSE("Bound", "bound");
